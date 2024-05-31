@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import DiversityInclusion from './Components/DiversityInclusion';
+import MockInterviews from './Components/MockInterviews';
+import HiringAnalytics from './Components/HiringAnalytics';
+import AccelerateTechHiring from './Components/AccelerateTechHiring';
+import CandidateExperience from './Components/CandidateExperience';
+import CaterToNicheRoles from './Components/CaterToNicheRoles';
+import StandardizedInterviews from './Components/StandardizedInterviews';
+import CampusHiring from './Components/CampusHiring';
+import Hiring from './Components/Hiring';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Hiring/> */}
+      {/* <CampusHiring/> */}
+      {/* <AccelerateTechHiring/> */}
+      {/* <StandardizedInterviews/> */}
+      {/* <CaterToNicheRoles/> */}
+      {/* <CandidateExperience/> */}
+      {/* <HiringAnalytics/> */}
+      <DiversityInclusion/>
+      {/* <MockInterviews/> */}
     </div>
   );
 }
